@@ -1,0 +1,17 @@
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\bin\Debug\net6.0\Blog.DAL.deps.json
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\bin\Debug\net6.0\Blog.DAL.runtimeconfig.json
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\bin\Debug\net6.0\Blog.DAL.dll
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\bin\Debug\net6.0\Blog.DAL.pdb
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\bin\Debug\net6.0\Blog.Core.dll
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\bin\Debug\net6.0\Blog.Core.pdb
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.csproj.AssemblyReference.cache
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.AssemblyInfoInputs.cache
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.AssemblyInfo.cs
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.csproj.CopyComplete
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.dll
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\refint\Blog.DAL.dll
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.pdb
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\Blog.DAL.genruntimeconfig.cache
+C:\Users\Inara\Desktop\c#\Solution1\Blog.DataAccessLibrary\obj\Debug\net6.0\ref\Blog.DAL.dll
