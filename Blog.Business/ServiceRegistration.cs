@@ -1,4 +1,6 @@
 ﻿using Blog.Business.Dtos.TopicDtos;
+using Blog.Business.ExternalServices.Implements;
+using Blog.Business.ExternalServices.Interfaces;
 using Blog.Business.Proliles;
 using Blog.Business.Repositories.Implements;
 using Blog.Business.Repositories.Interfaces;
@@ -30,6 +32,8 @@ namespace Blog.Business
         {
             services.AddScoped<ITopicRepositories, TopicRepositories>();
             services.AddScoped<ITopicService, TopicService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<ITokenService, TokenService>();
             services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<TopicCreateDTOValidation>());
             services.AddAutoMapper(typeof(TopicMappingProfile).Assembly);
             //services.AddAutoMapper(typeof(TopicMappingProfile).Assembly);

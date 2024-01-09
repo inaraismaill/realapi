@@ -90,12 +90,12 @@
         },
         "compile": {
           "ref/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtimeTargets": {
@@ -2148,24 +2148,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Inara\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj",
       "projectName": "Blog.DAL",
-      "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj",
-      "packagesPath": "C:\\Users\\Inara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\obj\\",
+      "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj",
+      "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.DataAccessLibrary\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Inara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2173,15 +2168,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\Blog.Core.csproj": {
-              "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\Blog.Core.csproj"
+            "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.Core\\Blog.Core.csproj": {
+              "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.Core\\Blog.Core.csproj"
             }
           }
         }
