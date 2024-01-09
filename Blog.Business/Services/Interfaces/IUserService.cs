@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Blog.Business.Services.Interfaces
 {
-    public interface IAuthService
+    public interface IUserService
     {
-        Task<TokenDto> Login(LoginDto dto);
+        public Task RegisterAsync(RegisterDto dto);
+        public Task<TokenDto> LoginAsync(LoginDto dto);
     }
 }
