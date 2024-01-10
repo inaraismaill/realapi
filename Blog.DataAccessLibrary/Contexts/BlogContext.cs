@@ -1,11 +1,12 @@
 ﻿using Blog.Core.Entities;
 using Blog.Core.Entities.Common;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace Blog.DAL.Contexts
 {
-    public class BlogContext:DbContext
+    public class BlogContext:IdentityDbContext
     {
         public BlogContext(DbContextOptions options) : base(options) { }
         public DbSet<AppUser> AppUsers { get; set; }

@@ -10,8 +10,7 @@ namespace Blog.Core.Entities
 {
     public class AppUser : IdentityUser
     {
-        public string UsernameOrEmail { get; set; }
-        public string Surname { get; set; }
+        public string Fullname { get; set; }
         public DateTime Birthday { get; set; }
     }
 }
