@@ -26,7 +26,11 @@ namespace Blog.Business.ExternalServices.Implements
             List<Claim> claims = new List<Claim>();
             claims.Add(new Claim(ClaimTypes.Name, user.UserName));
             claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Id));
+<<<<<<< HEAD
             claims.Add(new Claim(ClaimTypes.GivenName, user.Fullname));
+=======
+            claims.Add(new Claim(ClaimTypes.GivenName, user.UserName));
+>>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
             claims.Add(new Claim("Test", user.Birthday.ToString()));
 
             SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

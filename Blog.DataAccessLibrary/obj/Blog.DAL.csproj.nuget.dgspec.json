@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {}
+    "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.Core\\Blog.Core.csproj": {
+    "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\Blog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.Core\\Blog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\Blog.Core.csproj",
         "projectName": "Blog.Core",
-        "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.Core\\Blog.Core.csproj",
-        "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.Core\\obj\\",
+        "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\Blog.Core.csproj",
+        "packagesPath": "C:\\Users\\Inara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Inara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,17 +88,21 @@
         }
       }
     },
-    "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {
+    "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj",
         "projectName": "Blog.DAL",
-        "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj",
-        "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.DataAccessLibrary\\obj\\",
+        "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj",
+        "packagesPath": "C:\\Users\\Inara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Inara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,14 +110,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.Core\\Blog.Core.csproj": {
-                "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\realapi\\Blog.Core\\Blog.Core.csproj"
+              "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\Blog.Core.csproj": {
+                "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\Blog.Core.csproj"
               }
             }
           }

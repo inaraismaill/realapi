@@ -156,9 +156,17 @@ C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\obj\Debug\net6.0\refint\Blog
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\obj\Debug\net6.0\Blog.API.pdb
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\obj\Debug\net6.0\Blog.API.genruntimeconfig.cache
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\obj\Debug\net6.0\ref\Blog.API.dll
+<<<<<<< HEAD
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Birinci Novbe\Desktop\realapi\realapi\Blog\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+=======
+C:\Users\Inara\Desktop\c#\Solution1\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Inara\Desktop\c#\Solution1\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Inara\Desktop\c#\Solution1\Blog\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Inara\Desktop\c#\Solution1\Blog\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Inara\Desktop\c#\Solution1\Blog\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+>>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
