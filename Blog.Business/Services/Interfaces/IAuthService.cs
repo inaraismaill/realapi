@@ -1,15 +1,14 @@
 ﻿using Blog.Business.Dtos.AuthDtos;
-using Blog.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blog.Business.ExternalServices.Interfaces
+namespace Blog.Business.Services.Interfaces
 {
-    public interface ITokenService
+    public interface IAuthService
     {
-        TokenDto CreateToken(AppUser user);
+        Task<TokenDto> Login(LoginDto dto);
     }
 }

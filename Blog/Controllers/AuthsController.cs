@@ -10,25 +10,16 @@ namespace Blog.API.Controllers
     [ApiController]
     public class AuthsController : ControllerBase
     {
-        IUserService _userService { get; }
-        IEmailService _emailServices { get; }
-        public AuthsController(IUserService userService, IEmailService emailServices)
+        IAuthService _service { get; }
+
+        public AuthsController(IAuthService service)
         {
-            _userService = userService;
-            _emailServices = emailServices;
+            _service = service;
         }
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterDto dto)
-        {
-            await _userService.RegisterAsync(dto);
-            _emailServices.Send(dto.Email, "Welcome", "Hellooooo");
-            return Ok();
-        }
-        [HttpPost("Login")]
         public async Task<IActionResult> Login(LoginDto dto)
         {
-            return Ok(await _userService.LoginAsync(dto));
+            return Ok(await _service.Login(dto));
         }
-
     }
 }

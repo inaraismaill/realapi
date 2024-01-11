@@ -9,12 +9,13 @@ using System.Threading.Tasks;
 
 namespace Blog.DAL.Configusrations
 {
-    public class TopicConfiguration:IEntityTypeConfiguration<Topic>
+    public class TopicConfiguration : IEntityTypeConfiguration<Topic>
     {
         public void Configure(EntityTypeBuilder<Topic> builder)
         {
-            builder.Property(x=>x.Name).IsRequired().HasMaxLength(32);
-            builder.Property(x => x.CreatedTime).HasDefaultValue(DateTime.Now);
+            builder.Property(t => t.Name)
+                .IsRequired()
+                .HasMaxLength(32);
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OBPaK3UJxRpDlvpnWfeRhjYNwsuuGXQcNiL8d9CQugevzoXPvj+S91656biP9suA1Bz/GHzVdc1bZrmtcOnWgg==",
+  "dgSpecHash": "4lEWc3koIQOeffYlGLEU2O0tgJEGTc2K55d6pWSUI+dK/31JjJi3EREPIGX5YItqMvWRvWofegAQAz3SJ8o8Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Core\\Blog.Core.csproj",
+  "projectFilePath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Core\\Blog.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Inara\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Inara\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

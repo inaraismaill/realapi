@@ -13,45 +13,38 @@ using System.Threading.Tasks;
 
 namespace Blog.Business.ExternalServices.Implements
 {
+
     public class TokenService : ITokenService
     {
-        IConfiguration _configuration { get; }
-        public TokenService(IConfiguration configuration)
+        IConfiguration _config { get; }
+
+        public TokenService(IConfiguration config)
         {
-            _configuration = configuration;
+            _config = config;
         }
 
         public TokenDto CreateToken(AppUser user)
         {
             List<Claim> claims = new List<Claim>();
             claims.Add(new Claim(ClaimTypes.Name, user.UserName));
-            claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Id));
-<<<<<<< HEAD
             claims.Add(new Claim(ClaimTypes.GivenName, user.Fullname));
-=======
-            claims.Add(new Claim(ClaimTypes.GivenName, user.UserName));
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
-            claims.Add(new Claim("Test", user.Birthday.ToString()));
+            claims.Add(new Claim("Test", user.BirthDate.ToString()));
 
-            SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             SigningCredentials cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
-            DateTime expires = DateTime.UtcNow.AddMinutes(Convert.ToInt32(_configuration.GetSection("jet")?["ExpirenMin"]));
-            JwtSecurityToken jwt = new JwtSecurityToken(_configuration["Jwt:Audience"],
-                _configuration["Jwt:Issuer"],
+            DateTime expires = DateTime.UtcNow.AddMinutes(Convert.ToInt32(_config.GetSection("Jwt")?["ExpireMin"]));
+            JwtSecurityToken jwt = new JwtSecurityToken(_config.GetSection("Jwt")?["Issuer"],
+                _config.GetSection("Jwt")?["Audience"],
                 claims,
                 DateTime.UtcNow,
                 expires,
                 cred);
             JwtSecurityTokenHandler jwtHandler = new JwtSecurityTokenHandler();
             var token = jwtHandler.WriteToken(jwt);
-
-            TokenDto dto = new TokenDto();
-            dto.Token = token;
-
             return new TokenDto
             {
                 Expires = expires,
-                Token = token,
+                Token = token
             };
         }
     }

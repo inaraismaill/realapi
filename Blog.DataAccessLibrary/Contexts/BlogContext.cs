@@ -1,5 +1,6 @@
 ﻿using Blog.Core.Entities;
 using Blog.Core.Entities.Common;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
@@ -20,19 +21,16 @@ namespace Blog.DAL.Contexts
             foreach (var entry in entries)
             {
                 if (entry.State == EntityState.Added)
-                {
                     entry.Entity.CreatedTime = DateTime.UtcNow;
-                }
-                else if (entry.State == EntityState.Modified)
-                {
-                    entry.Entity.UpdatedTime = DateTime.UtcNow;
-                }
             }
             return base.SaveChangesAsync(cancellationToken);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(TopicConfiguration).Assembly);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            modelBuilder.Entity<IdentityUser>().Ignore(b => b.PhoneNumber)
+            .Ignore(b => b.PhoneNumberConfirmed);
             base.OnModelCreating(modelBuilder);
         }
     }

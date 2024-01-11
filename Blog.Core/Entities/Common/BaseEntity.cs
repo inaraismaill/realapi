@@ -11,7 +11,7 @@ namespace Blog.Core.Entities.Common
     {
         public int Id { get; set; }
         public virtual DateTime CreatedTime { get; set; }
-        public virtual DateTime UpdatedTime { get; set; }
+        //public virtual DateTime UpdatedTime { get; set; }
         public virtual bool IsDeleted { get; set; }
     }
 }

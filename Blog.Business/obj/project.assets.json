@@ -2411,11 +2411,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Business\\Blog.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Business\\Blog.Business.csproj",
       "projectName": "Blog.Business",
-      "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Business\\Blog.Business.csproj",
+      "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Business\\Blog.Business.csproj",
       "packagesPath": "C:\\Users\\Inara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Business\\obj\\",
+      "outputPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2437,8 +2437,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {
-              "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj"
+            "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {
+              "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj"
             }
           }
         }
@@ -2503,5 +2503,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Business\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

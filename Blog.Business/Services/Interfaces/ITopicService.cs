@@ -15,6 +15,5 @@ namespace Blog.Business.Services.Interfaces
         public Task CreateAsync(TopicCreateDTO dto);
         public Task RemoveAsync(int id);
         public Task UpdateAsync(int id, TopicUpdateDTO dto);
-
     }
 }

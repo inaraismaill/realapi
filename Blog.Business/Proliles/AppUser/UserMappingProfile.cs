@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Blog.Business.Dtos.AppUser;
 using Blog.Business.Dtos.AuthDtos;
 using Blog.Core.Entities;
 

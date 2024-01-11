@@ -17,36 +17,32 @@ namespace Blog.Business.Services.Implements
     {
         ITopicRepositories _repo { get; }
         IMapper _mapper { get; }
-        public TopicService(ITopicRepositories repo,IMapper mapper)
+
+
+        public TopicService(ITopicRepositories repo,
+            IMapper mapper)
         {
-            _mapper = mapper;
             _repo = repo;
+            _mapper = mapper;
         }
-        async Task ITopicService.CreateAsync(TopicCreateDTO dto)
+
+        public async Task CreateAsync(TopicCreateDTO dto)
         {
             if (await _repo.IsExistAsync(r => r.Name.ToLower() == dto.Name.ToLower()))
                 throw new TopicExistException();
-
-            //await _repo.CreateAsync(new Topic
-            //{
-            //    Name = dto.Name,
-            //});
             await _repo.CreateAsync(_mapper.Map<Topic>(dto));
             await _repo.SaveAsync();
         }
-        IEnumerable<TopicListItemDTO> ITopicService.GetAll()
+
+        public IEnumerable<TopicListItemDTO> GetAll()
             => _mapper.Map<IEnumerable<TopicListItemDTO>>(_repo.GetAll());
-        //=> _repo.GetAll().Select(t => new TopicListItemDTO
-        //{
-        //    Id = t.Id,
-        //    Name = t.Name,
-        //});
-        
+
         public async Task<TopicDetailDTO> GetByIdAsync(int id)
         {
             var data = await _checkId(id, true);
             return _mapper.Map<TopicDetailDTO>(data);
         }
+
         public async Task RemoveAsync(int id)
         {
             var data = await _checkId(id);
