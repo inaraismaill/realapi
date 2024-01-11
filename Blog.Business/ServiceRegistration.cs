@@ -36,7 +36,7 @@ namespace Blog.Business
             services.AddScoped<ITokenService, TokenService>();
             services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<TopicCreateDTOValidation>());
             services.AddAutoMapper(typeof(TopicMappingProfile).Assembly);
-            services.AddScoped<IEmailService, EmailService>();
+            //services.AddScoped<IEmailService, EmailService>();
             //services.AddAutoMapper(typeof(TopicMappingProfile).Assembly);
             return services;
         }

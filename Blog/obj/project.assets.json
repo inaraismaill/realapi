@@ -94,7 +94,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25": {
         "type": "package",
         "dependencies": {
@@ -114,8 +113,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-=======
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.25": {
         "type": "package",
         "compile": {
@@ -187,12 +184,12 @@
         },
         "compile": {
           "ref/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtimeTargets": {
@@ -654,12 +651,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -731,12 +728,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -750,12 +747,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -763,12 +760,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -1215,7 +1212,6 @@
         "logo.png"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25": {
       "sha512": "bc7KZZRAHLpeuznhuQWGHW7kNDRvKsUY7fPq9ftOBLR8DUtyTF1amgHxbHKg9sveTGwrJPiBf4b42pVTYlRccg==",
       "type": "package",
@@ -1231,8 +1227,6 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-=======
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.25": {
       "sha512": "KKuDD1sD6cfYbdNQSZOaXqnic1mJ3FMTx5TOfhhmAJVWlwbmpwlmSTjmSvRGB6NVr5yx4kENmKcYr7JgEziogg==",
       "type": "package",
@@ -2901,10 +2895,7 @@
       "Blog.DAL >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.9.0",
-<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.25",
-=======
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.25",
       "Microsoft.EntityFrameworkCore >= 6.0.25",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.25",
@@ -2913,24 +2904,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Inara\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog\\Blog.API.csproj",
+      "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog\\Blog.API.csproj",
       "projectName": "Blog.API",
-      "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog\\Blog.API.csproj",
-      "packagesPath": "C:\\Users\\Inara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog\\obj\\",
+      "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog\\Blog.API.csproj",
+      "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Inara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2938,18 +2924,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Business\\Blog.Business.csproj": {
-              "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.Business\\Blog.Business.csproj"
+            "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.Business\\Blog.Business.csproj": {
+              "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.Business\\Blog.Business.csproj"
             },
-            "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {
-              "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\Blog.DataAccessLibrary\\Blog.DAL.csproj"
+            "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {
+              "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj"
             }
           }
         }
@@ -2980,13 +2965,10 @@
             "target": "Package",
             "version": "[11.9.0, )"
           },
-<<<<<<< HEAD
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[6.0.25, )"
           },
-=======
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.25, )"

@@ -1,18 +1,14 @@
 using Blog.DAL.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Blog.Business;
-<<<<<<< HEAD
 using Microsoft.AspNetCore.Identity;
 using Blog.Core.Entities;
 using Blog.Core.Enum;
 using System.Text;
 using Blog.Business.Exceptions.AppUser;
 using Blog.API;
-=======
-using Blog.Core.Entities;
-using Microsoft.AspNetCore.Identity;
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
 using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerUI;
 
 var builder = WebApplication.CreateBuilder(args);
 var jwt = builder.Configuration.GetSection("Jwt").Get<Jwt>();
@@ -46,16 +42,15 @@ builder.Services.AddSwaggerGen(opt =>
         }
     });
 });
-<<<<<<< HEAD
-builder.Services.AddDbContext<BlogContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")));
-builder.Services.AddUserIdentity();
-=======
+
 builder.Services.AddDbContext<BlogContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL"))).AddIdentity<AppUser, IdentityRole>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
     options.SignIn.RequireConfirmedPhoneNumber = false;
     options.SignIn.RequireConfirmedEmail = false;
 }).AddDefaultTokenProviders().AddEntityFrameworkStores<BlogContext>();
+
+//builder.Services.AddUserIdentity();
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -78,7 +73,7 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 //builder.Services.AddRepositories();
 //builder.Services.AddServices();
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
+
 builder.Services.AddBusinessLayer();
 builder.Services.AddAuth(jwt);
 
@@ -94,6 +89,7 @@ if (app.Environment.IsDevelopment())
     }); ;
 }
 app.UseHttpsRedirection();
+
 app.Use(async (context, next) =>
 {
     using(var scope= context.RequestServices.CreateScope())

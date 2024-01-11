@@ -14,10 +14,7 @@
           "Blog.DAL": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
-<<<<<<< HEAD
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
-=======
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.25",
@@ -91,7 +88,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
@@ -103,8 +99,6 @@
           }
         }
       },
-=======
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.25": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -718,7 +712,6 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.25": {
       "type": "package",
       "serviceable": true,
@@ -726,8 +719,6 @@
       "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.25",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.25.nupkg.sha512"
     },
-=======
->>>>>>> 5d78b326896165b775f4d0574c9e183cd6ec5cc1
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.25": {
       "type": "package",
       "serviceable": true,

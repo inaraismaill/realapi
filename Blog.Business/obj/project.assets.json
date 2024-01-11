@@ -165,12 +165,12 @@
         },
         "compile": {
           "ref/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtimeTargets": {
@@ -2405,24 +2405,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Inara\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Birinci Novbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Business\\Blog.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.Business\\Blog.Business.csproj",
       "projectName": "Blog.Business",
-      "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Business\\Blog.Business.csproj",
-      "packagesPath": "C:\\Users\\Inara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Business\\obj\\",
+      "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.Business\\Blog.Business.csproj",
+      "packagesPath": "C:\\Users\\Birinci Novbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.Business\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Inara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Birinci Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2430,15 +2425,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {
-              "projectPath": "C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj"
+            "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj": {
+              "projectPath": "C:\\Users\\Birinci Novbe\\Desktop\\realapi\\Blog.DataAccessLibrary\\Blog.DAL.csproj"
             }
           }
         }
@@ -2503,13 +2497,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Inara\\Desktop\\c#\\Solution1\\realapi\\Blog.Business\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

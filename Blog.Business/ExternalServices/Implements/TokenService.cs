@@ -28,7 +28,7 @@ namespace Blog.Business.ExternalServices.Implements
             List<Claim> claims = new List<Claim>();
             claims.Add(new Claim(ClaimTypes.Name, user.UserName));
             claims.Add(new Claim(ClaimTypes.GivenName, user.Fullname));
-            claims.Add(new Claim("Test", user.BirthDate.ToString()));
+            claims.Add(new Claim("Test", user.Birthday.ToString()));
 
             SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             SigningCredentials cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
